@@ -100,7 +100,7 @@ body{
 /*  media queries */
 @media (max-width:1200px) {
     html{
-        font-size: 55%;
+        font-size: 60%;
     }
     
     .prof_image {
@@ -121,7 +121,7 @@ body{
 }
 @media (max-width:720px) {
     html{
-        font-size: 50%;
+        font-size: 55%;
     }
     body{
         display: flex;
