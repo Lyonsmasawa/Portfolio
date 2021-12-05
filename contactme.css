@@ -1,0 +1,75 @@
+  .hire-title {
+    margin-top: 70px;
+    font-size: 38px;
+  }
+  
+  .cus-brief {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  
+  form {
+    margin-top: 20px;
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    width: 55%;
+  }
+  
+  #name {
+    width: 50%;
+    padding: 20px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.185);
+  }
+  
+  #mail {
+    width: 50%;
+    padding: 15px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.185);
+  }
+  #bgame {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin-top: 50px;
+    font-weight: bold;
+  }
+  
+  .hire-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  #number {
+    width: 50%;
+    padding: 15px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.185);
+  }
+  
+  #date {
+    width: 50%;
+    padding: 15px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.185);
+  }
+
+  
+  #message {
+    width: 50%;
+    padding: 15px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.185);
+  }
+  
