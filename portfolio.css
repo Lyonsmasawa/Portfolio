@@ -17,6 +17,7 @@ html {
 
 body {
     display: flex;
+    font-size: 3rem;
     flex-direction: column;
     text-align: center;
     align-items: center;
@@ -26,6 +27,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 5rem;
+    margin-top: 2rem;
     align-items: center;
     justify-content: center;
 }
