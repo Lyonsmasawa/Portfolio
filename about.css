@@ -27,7 +27,7 @@ body{
     justify-content: space-around;
     align-items: center;
     height: 60vh;
-    padding: .5rem;
+    padding: 2rem 0.5rem;
 }
 .info h1{
     font-size: 7rem;
