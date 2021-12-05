@@ -35,7 +35,7 @@ body{
     border-radius: 40% 80% 80% 40% / 40% 40% 80% 80%;
 }
 .brief{
-    flex-basis: 50%;
+    flex-basis: 60%;
     text-align: left;
     padding: 10rem;
     line-height: 7rem;
