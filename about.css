@@ -130,7 +130,7 @@ body{
 }
 .sectors img{
     width: 50%;
-    height: 100%;
+    height: 80%;
 }
 .skills h1{
     font-size: 5rem;
@@ -161,4 +161,38 @@ body{
 .sectors img:hover{
     width: 60%;
     height: 100%;
+}
+.about_btn{
+    margin-top: 3rem;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 0 1rem;
+    line-height: 0;
+    padding: 5px 8px;
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+}
+.about_btn i{
+    background-color: white;
+    border-radius: 18px;
+    color: red;
+    padding: .6rem;
+    font-size: 14px;
+    margin-left: 7px;
+    margin-right: 0;
+}
+.about_btn:hover {
+    padding: 1rem 2rem;
+    font-size: 2rem;
+}
+.about_btn i:hover {
+    padding: 1rem 2rem;
+    font-size: 1rem;    
 }
