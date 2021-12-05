@@ -197,7 +197,7 @@ body {
 }
 
 .about_btn {
-    margin-top: 3rem;
+    margin: 1rem;
     background-color: red;
     display: flex;
     align-items: center;
@@ -208,7 +208,7 @@ body {
     padding: 0 1rem;
     line-height: 0;
     padding: 5px 8px;
-    border-radius: 8px;
+    border-radius: 18px;
     font-size: 18px;
     color: white;
     font-weight: 600;
@@ -236,8 +236,6 @@ body {
 
 .btndiv {
     display: flex;
-    gap: 3rem;
-    margin-bottom: 1rem;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
