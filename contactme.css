@@ -16,7 +16,6 @@ html {
 }
 
 .hire-title {
-    margin-top: 70px;
     font-size: 38px;
 }
 
@@ -128,5 +127,6 @@ form {
 .btndiv{
     display: flex;
     gap: 3rem;
-    margin: 5rem;
+    align-items: center;
+    justify-content: space-around;
 }
