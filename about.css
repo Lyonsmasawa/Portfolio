@@ -28,15 +28,20 @@ body{
     align-items: center;
     padding: 5rem .5rem;
 }
+.abt{
+    font-size: 7rem;
+    font-weight: 600;
+    margin: 1rem ;
+    color: black;
+    background-color: white;
+    width: 100%;
+}
 .info h1{
     font-size: 7rem;
     font-weight: 600;
-    text-decoration-line: underline;
-    text-decoration-color: grey;
-    text-decoration-thickness: 1px;
-    text-decoration-style: dotted;
-    text-underline-offset: 1rem;
     margin: 1rem ;
+    color: black;
+
 }
 
 .address li, .cards h1{
