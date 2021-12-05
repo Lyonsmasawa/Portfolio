@@ -20,7 +20,16 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    flex-direction: column;
 }
+.bd{
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .prof_image {
     display: flex;
     align-items: center;
@@ -100,6 +109,18 @@ body{
     gap: 3rem;
 }
 
+.fa {
+    background: white;
+    color: black;
+    font-size: 1.5rem;
+    border-radius:25px;
+    padding: .8rem 1rem;
+    margin-right: 2rem;
+}
+.fa:hover{
+    background: black;
+    color: red;
+}
 
 
 /*  media queries */
