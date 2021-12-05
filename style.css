@@ -100,12 +100,9 @@ body{
 /*  media queries */
 @media (max-width:1200px) {
     html{
-        font-size: 50%;
+        font-size: 55%;
     }
-    body{
-        display: flex;
-        flex-direction: column;
-    }
+    
     .prof_image {
         display: flex;
         justify-content: center;
@@ -114,7 +111,7 @@ body{
     }
 
     .brief{
-        line-height: 5rem;
+        line-height: 3rem;
     }
     .brief p{
       line-height: 3rem;
