@@ -57,9 +57,25 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
+    line-height: 4rem;
     align-items: center;
     justify-content: center;
     transform: translateY(-100%);
+    font-size: 2rem;
+}
+.writing a, .writing button{
+    color: red;
+    font-size: 2rem;
+    font-weight: 600;
+    border-radius: 18px;
+    padding: 1rem;
+}
+.writing button:hover{
+    background-color: black;
+    color: white;
+    padding: 1.5rem;
+    box-shadow: 0 1px 5px white;
+    cursor: pointer;
 }
 .portfolio:hover .writing{
     transform: translateY(0%);
