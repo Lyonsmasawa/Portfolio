@@ -150,3 +150,13 @@ body{
     align-items: center;
     justify-content: space-around;
 }
+.sectors:hover{
+    font-size: 3rem;
+    background-color: black;
+    color: white;
+    line-height: 5rem;
+}
+.sectors img:hover{
+    width: 60%;
+    height: 100%;
+}
