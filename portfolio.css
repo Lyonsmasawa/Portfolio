@@ -9,7 +9,39 @@
     border: none;
     transition: all .3s linear;
 }
-html{
+
+html {
     overflow-x: hidden;
     font-size: 70%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.port {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    gap: 5rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.portfolio {
+    width: 40%;
+    background-color: black;
+    overflow: hidden;
+    height: 40vh;
 }
