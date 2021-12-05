@@ -98,6 +98,30 @@ body{
 
 
 /*  media queries */
+@media (max-width:1024px) {
+    html{
+        font-size: 50%;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .prof_image {
+        display: flex;
+        justify-content: center;
+        width: 30rem;
+        height: 30rem;
+    }
+
+    .brief{
+        line-height: 5rem;
+    }
+    .brief p{
+      line-height: 3rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+}
 @media (max-width:720px) {
     html{
         font-size: 50%;
