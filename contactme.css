@@ -125,3 +125,8 @@ form {
     padding: 1rem 2rem;
     font-size: 1rem;    
 }
+.btndiv{
+    display: flex;
+    gap: 3rem;
+    margin: 5rem;
+}

@@ -84,7 +84,7 @@ body {
     transform: translateY(0%);
 }
 .about_btn{
-    margin: 3rem;
+    margin-top: 3rem;
     background-color: red;
     display: flex;
     align-items: center;
@@ -99,7 +99,7 @@ body {
     font-size: 18px;
     color: white;
     font-weight: 600;
-    box-shadow: 0 1px 5px black;
+    box-shadow: 0 1px 4px black;
 }
 .about_btn i{
     background-color: white;
@@ -117,4 +117,9 @@ body {
 .about_btn i:hover {
     padding: 1rem 2rem;
     font-size: 1rem;    
+}
+.btndiv{
+    display: flex;
+    gap: 3rem;
+    margin: 5rem;
 }
