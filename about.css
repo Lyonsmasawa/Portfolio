@@ -26,16 +26,18 @@ body{
     color: white;
     justify-content: space-around;
     align-items: center;
-    height: 70vh;
+    height: 60vh;
+    padding: .5rem;
 }
 .info h1{
-    font-size: 8rem;
+    font-size: 7rem;
     text-transform: uppercase;
     font-weight: 600;
     text-decoration-line: underline;
     text-decoration-color: grey;
     text-decoration-thickness: 1px;
     text-decoration-style: dotted;
+    text-underline-offset: 1rem;
 }
 
 .address li, .cards h1{
@@ -46,7 +48,7 @@ body{
 }
 .personal{
     text-align: left;
-    font-size: 18px;
+    font-size: 1.7rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -55,7 +57,7 @@ body{
 .address{
     flex-basis: 100%;
     padding: 2%;
-    line-height: 4rem;
+    line-height: 3rem;
 }
 .cards{
     flex-basis: 100%;
@@ -69,7 +71,7 @@ body{
 }
 .address h2{
     font-size: 4rem;
-    line-height: 8rem;
+    line-height: 7rem;
 }
 .card p{
     font-size: 1.7rem;
@@ -103,5 +105,8 @@ body{
     line-height: 3rem;
 }
 .sec i{
-
+    color: red;
+}
+.skills{
+    display: flex;
 }
