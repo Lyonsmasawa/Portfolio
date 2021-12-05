@@ -106,15 +106,15 @@ body{
     .prof_image {
         display: flex;
         justify-content: center;
-        width: 30rem;
-        height: 30rem;
+        width: 40rem;
+        height: 40rem;
     }
 
     .brief{
-        line-height: 3rem;
+        line-height: 4rem;
     }
     .brief p{
-      line-height: 3rem;
+      line-height: 2rem;
       margin-top: 1rem;
       margin-bottom: 1rem;
     }
