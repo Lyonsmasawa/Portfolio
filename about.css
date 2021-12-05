@@ -10,16 +10,19 @@
     transition: all .3s linear;
     list-style: none;
 }
-html{
+
+html {
     overflow-x: hidden;
     font-size: 70%;
 }
-body{
+
+body {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-.info{
+
+.info {
     display: flex;
     flex-direction: column;
     background-color: black;
@@ -28,29 +31,34 @@ body{
     align-items: center;
     padding: 5rem .5rem;
 }
-.abt{
+
+.abt {
     font-size: 7rem;
     font-weight: 600;
-    margin: 1rem ;
+    margin: 1rem;
     color: black;
     background-color: white;
     width: 100%;
 }
-.info h1{
+
+.info h1 {
     font-size: 7rem;
     font-weight: 600;
-    margin: 1rem ;
+    margin: 1rem;
     color: black;
 
 }
 
-.address li, .cards h1{
+.address li,
+.cards h1 {
     color: red;
 }
-.address span{
+
+.address span {
     color: white;
 }
-.personal{
+
+.personal {
     text-align: left;
     font-size: 1.7rem;
     display: flex;
@@ -58,46 +66,55 @@ body{
     align-items: center;
     width: 100%;
 }
-.address{
+
+.address {
     flex-basis: 100%;
     padding: 2%;
     line-height: 3rem;
 }
-.cards{
+
+.cards {
     flex-basis: 100%;
     display: flex;
     gap: 10rem;
     text-align: center;
 }
-.card{
+
+.card {
     padding: 3rem;
     box-shadow: 0px 4px 5px rgba(128, 128, 128, 0.322);
 }
-.address h2{
+
+.address h2 {
     font-size: 4rem;
     line-height: 7rem;
 }
-.card p{
+
+.card p {
     font-size: 1.7rem;
 }
-.education{
+
+.education {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 7rem;
 }
-.education h1{
+
+.education h1 {
     font-size: 5rem;
     margin-bottom: 5rem;
 }
-.sector{
+
+.sector {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     gap: 7rem;
 }
-.sec{
+
+.sec {
     font-size: 1.5rem;
     border-right: 1px solid grey;
     padding: 2rem;
@@ -108,22 +125,26 @@ body{
     width: 20%;
     line-height: 3rem;
 }
-.sec i{
+
+.sec i {
     color: red;
 }
-.skills{
+
+.skills {
     padding-top: 5rem;
     background-color: rgba(0, 0, 0, 0.082);
     display: flex;
     flex-direction: column;
     padding-bottom: 5rem;
 }
-.skills_container{
+
+.skills_container {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
-.sectors{
+
+.sectors {
     font-size: 1.2rem;
     line-height: 3rem;
     font-weight: 600;
@@ -133,41 +154,49 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-.sectors img{
+
+.sectors img {
     width: 50%;
     height: 80%;
 }
-.skills h1{
+
+.skills h1 {
     font-size: 5rem;
 }
-.sectors h2{
+
+.sectors h2 {
     font-size: 2rem;
     font-weight: 600;
 }
-.skillweb{
+
+.skillweb {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 4rem;
 }
-.skillart{
+
+.skillart {
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding-top: 4rem;
-    padding:1rem;
+    padding: 1rem;
 }
-.sectors:hover{
+
+.sectors:hover {
     font-size: 3rem;
     background-color: rgba(0, 0, 0, 0.281);
     color: white;
     line-height: 5rem;
 }
-.sectors img:hover{
+
+.sectors img:hover {
     width: 60%;
     height: 100%;
 }
-.about_btn{
+
+.about_btn {
     margin-top: 3rem;
     background-color: red;
     display: flex;
@@ -179,12 +208,13 @@ body{
     padding: 0 1rem;
     line-height: 0;
     padding: 5px 8px;
-    border-radius: 25px;
+    border-radius: 8px;
     font-size: 18px;
     color: white;
     font-weight: 600;
 }
-.about_btn i{
+
+.about_btn i {
     background-color: white;
     border-radius: 18px;
     color: red;
@@ -193,15 +223,18 @@ body{
     margin-left: 7px;
     margin-right: 0;
 }
+
 .about_btn:hover {
     padding: 1rem 2rem;
     font-size: 2rem;
 }
+
 .about_btn i:hover {
     padding: 1rem 2rem;
-    font-size: 1rem;    
+    font-size: 1rem;
 }
-.btndiv{
+
+.btndiv {
     display: flex;
     gap: 3rem;
     margin-bottom: 1rem;
