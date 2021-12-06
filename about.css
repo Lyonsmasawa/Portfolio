@@ -154,6 +154,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 0 1px 4px black;
 }
 
 .sectors img {
@@ -175,6 +176,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 4rem;
+    gap: 2rem;
 }
 
 .skillart {
@@ -183,6 +185,7 @@ body {
     justify-content: space-around;
     padding-top: 4rem;
     padding: 1rem;
+    gap: 2rem;
 }
 
 .sectors:hover {
