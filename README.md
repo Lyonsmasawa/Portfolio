@@ -55,8 +55,6 @@ Please make sure you update the branches when you make changes plus a detailed g
 ## License
 [MIT Licence](https://github.com/Lyonsmasawa/Portfolio/blob/master/License.md)
 
-MIT License
-
 Copyright (c) 2021 Lyons Albert Masawa
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
