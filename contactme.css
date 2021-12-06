@@ -90,7 +90,8 @@ form {
     border: none;
     background-color: rgba(128, 128, 128, 0.185);
 }
-.about_btn{
+
+.about_btn {
     margin-top: 3rem;
     background-color: red;
     display: flex;
@@ -107,7 +108,8 @@ form {
     color: white;
     font-weight: 600;
 }
-.about_btn i{
+
+.about_btn i {
     background-color: white;
     border-radius: 18px;
     color: red;
@@ -116,26 +118,30 @@ form {
     margin-left: 7px;
     margin-right: 0;
 }
+
 .about_btn:hover {
     padding: 1rem 2rem;
     font-size: 2rem;
 }
+
 .about_btn i:hover {
     padding: 1rem 2rem;
-    font-size: 1rem;    
+    font-size: 1rem;
 }
-.btndiv{
+
+.btndiv {
     display: flex;
     gap: 3rem;
     align-items: center;
     justify-content: space-around;
 }
+
 /*  media queries */
 @media (max-width:1200px) {
-    html{
+    html {
         font-size: 60%;
     }
-    
+
     .prof_image {
         display: flex;
         justify-content: center;
@@ -143,35 +149,41 @@ form {
         height: 40rem;
     }
 
-    .brief{
+    .brief {
         line-height: 4rem;
     }
-    .brief p{
-      line-height: 2rem;
-      margin-top: 1rem;
-      margin-bottom: 1rem;
+
+    .brief p {
+        line-height: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 }
+
 @media (max-width:720px) {
-    html{
+    html {
         font-size: 40%;
         display: flex;
-        flex-wrap: wrap;        
+        flex-wrap: wrap;
     }
-    body{
+
+    body {
         padding: 1rem;
         display: flex;
         flex-direction: column;
         width: 100%;
     }
-   form{
-       width: 85%;
-   }
-    .about_btn{
+
+    form {
+        width: 85%;
+    }
+
+    .about_btn {
         padding: .6rem;
         font-size: 2rem;
     }
-    .about_btn i{
+
+    .about_btn i {
         font-size: 1.5rem;
     }
 }
