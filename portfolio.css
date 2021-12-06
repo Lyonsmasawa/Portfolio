@@ -123,6 +123,24 @@ body {
     gap: 3rem;
     margin: 5rem;
 }
+.social{
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+    justify-content: center;
+}
+.fa {
+    background: white;
+    color: black;
+    font-size: 1.5rem;
+    border-radius:25px;
+    padding: .8rem 1rem;
+    margin-right: 2rem;
+}
+.fa:hover{
+    background: black;
+    color: red;
+}
 
 /*  media queries */
 @media (max-width:1200px) {
@@ -173,6 +191,6 @@ body {
     .portfolio{
         width: 70%;
         height: fit-content;
-        
+
     }
 }
