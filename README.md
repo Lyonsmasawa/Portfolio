@@ -53,7 +53,7 @@ Please make sure you update the branches when you make changes plus a detailed g
 * Basics of HTML and CSS
 
 ## License
-[MIT Licence](https://github.com/Lyonsmasawa/Portfolio/blob/4347e34d155dd0bbb118d595fef0c896a04605ac/Licence.md)
+[MIT Licence](https://github.com/Lyonsmasawa/Portfolio/blob/master/License.md)
 
 MIT License
 
